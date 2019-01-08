@@ -1,8 +1,5 @@
 /*Generelt*/
 
-
-
-
 section {
     max-width: 1200px;
     margin: 0 auto;
@@ -23,7 +20,7 @@ img {
 }
 
 img:hover {
-    filter: grayscale(0%)
+    filter: grayscale(0%);
 }
 
 
@@ -44,26 +41,44 @@ header {
 header nav a {
     text-decoration: none;
     color: black;
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     flex-basis: 200px;
     flex-grow: 1;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding-top: 10px;
+    padding-top: 19px;
+    padding-left: 19px;
 }
 
 header nav a:hover {
-    color: #9a8e79;
+    color: #3fd05b;
     text-decoration: underline;
 }
 
+header #logo {
+    background-image: url(logo_m.png);
+    filter: grayscale(0%);
+    width: 14vw;
+    height: 20vw;
+    position: absolute;
+    top: 1.6vw;
+    left: 94vw;
+    height: 3.5vw;
+    width: 3.4vw;
+    background-size: 100%;
+
+}
+
+
 h1 {
-    text-align: center;
     font-size: 2rem;
     flex-basis: 200px;
     flex-grow: 1;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 800;
+    padding-left: 520px;
+    padding-top: 10px
 }
 
 h2 {
@@ -87,10 +102,11 @@ h2 {
     padding: 15px;
     font-size: 23px;
     color: black;
+    font-weight: 500;
 }
 
 #myOp:hover {
-    background-color: #9a8e79;
+    background-color: #3fd05b;
 }
 
 
@@ -108,6 +124,7 @@ html {
 }
 
 .content {
+    padding-top: 50px;
     flex-basis: 450px;
     flex-grow: 1;
     flex-direction: column;
@@ -119,4 +136,17 @@ html {
 
 p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*cv*/
+
+.content_cv {
+    padding-top: 190px;
+    flex-basis: 450px;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    padding-right: 20px;
+    max-width: 550px;
+    align-self: center;
 }
