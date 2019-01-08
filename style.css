@@ -258,11 +258,6 @@ html {
         padding: 7px;
     }
 
-    h1 {
-        font-size: 1rem;
-        top: 0vw;
-    }
-
     nav {
         padding-bottom: 60px;
     }
@@ -272,6 +267,10 @@ html {
         left: 84vw;
         height: 10.5vw;
         width: 10.4vw;
+    }
+
+    h2 {
+        font-size: 1.4rem;
     }
 }
 
@@ -297,6 +296,10 @@ html {
     justify-content: center;
 }
 
+.content_cv img {
+    padding-bottom: 20px;
+}
+
 @media only screen and (max-width: 825px) {
     h3 {
         padding-left: 2px;
@@ -312,3 +315,31 @@ html {
         height: 10.5vw;
         width: 10.4vw;
     }
+}
+
+/*links*/
+
+a href {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: aqua;
+}
+
+/* unvisited link */
+a:link {
+    color: #000000;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #3fd05b;
+}
+
+/* selected link */
+a:active {
+    color: #000000;
+}
