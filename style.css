@@ -47,6 +47,9 @@ h1 {
     font-weight: 400;
 }
 
+h2 {
+    padding-top: 67px;
+}
 
 #myOp {
     display: none;
@@ -71,4 +74,27 @@ h1 {
 
 html {
     scroll-behavior: smooth;
+}
+
+/*portfolio*/
+
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content {
+    flex-basis: 450px;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    padding-right: 20px;
+    max-width: 550px;
+    align-self: center;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
